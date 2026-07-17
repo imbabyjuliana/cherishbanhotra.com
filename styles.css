@@ -195,7 +195,7 @@ img {
   content: '';
   position: fixed;
   inset: 0;
-  background: url('assets/cover.png') center/cover no-repeat;
+  background: url('assets/cover1.png') center/cover no-repeat;
   filter: blur(3px);
   transform: scale(1.04);
   opacity: .45;
@@ -801,7 +801,7 @@ footer {
   }
 
   .hero::before {
-    background-image: url('assets/mobileviewcover.png');
+    background-image: url('assets/CB4.jpg');
     background-position: center top;
     filter: blur(1px);
     opacity: .5;
