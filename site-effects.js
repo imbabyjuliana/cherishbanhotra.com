@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', closeNav);
     });
 
+    document.addEventListener('click', (event) => {
+      if (!navbar.contains(event.target)) {
+        closeNav();
+      }
+    });
+
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') {
         closeNav();
@@ -42,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const revealItems = document.querySelectorAll(
-    '.content-section, .section-title, .about-panel, .gallery-card, .path-card, .release-card, .follow-card'
+    '.content-section, .section-title, .about-panel, .gallery-card, .path-card, .release-card'
   );
 
   revealItems.forEach((item, index) => {

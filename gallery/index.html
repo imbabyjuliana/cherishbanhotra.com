@@ -22,7 +22,6 @@
       <li><a href="/about">About</a></li>
       <li><a href="/releases">Releases</a></li>
       <li><a class="active" href="/gallery" aria-current="page">Featured Gallery</a></li>
-      <li><a href="/follow">Follow</a></li>
     </ul>
   </nav>
 
@@ -36,22 +35,46 @@
     <section class="content-section">
       <div class="gallery-grid">
         <article class="gallery-card">
-          <img src="/assets/CB5.png" alt="Elegant style portrait">
+          <button class="gallery-preview" type="button" data-full="/assets/CB5.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB5.png" alt="Cherish Banhotra">
+          </button>
         </article>
         <article class="gallery-card">
-          <img src="/assets/CB7.png" alt="Golden hour portrait">
+          <button class="gallery-preview" type="button" data-full="/assets/CB7.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB7.png" alt="Cherish Banhotra">
+          </button>
         </article>
         <article class="gallery-card">
-          <img src="/assets/CB3.png" alt="Soft portrait close-up">
+          <button class="gallery-preview" type="button" data-full="/assets/CB3.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB3.png" alt="Cherish Banhotra">
+          </button>
         </article>
         <article class="gallery-card">
-          <img src="/assets/CB1.png" alt="Modern look portrait">
+          <button class="gallery-preview" type="button" data-full="/assets/CB1.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB1.png" alt="Cherish Banhotra">
+          </button>
+        </article>
+        <article class="gallery-card">
+          <button class="gallery-preview" type="button" data-full="/assets/CB6.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB6.png" alt="Cherish Banhotra" loading="lazy" decoding="async">
+          </button>
         </article>
       </div>
     </section>
+
   </main>
+
+  <div id="imageModal" class="image-modal" role="dialog" aria-modal="true" aria-labelledby="modalCaption" aria-hidden="true">
+    <button class="modal-backdrop" type="button" aria-label="Close image preview"></button>
+    <div class="modal-content">
+      <button class="modal-close" type="button" aria-label="Close image preview">&times;</button>
+      <img id="modalImage" src="" alt="">
+      <p id="modalCaption"></p>
+    </div>
+  </div>
 
   <footer>&copy; 2026 Cherish Banhotra</footer>
   <script src="/site-effects.js"></script>
+  <script src="/gallery-lightbox.js"></script>
 </body>
 </html>
