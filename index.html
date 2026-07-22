@@ -9,6 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqa2oxhmor");
+  </script>
 </head>
 <body>
   <nav class="navbar" aria-label="Primary navigation">
@@ -21,7 +28,7 @@
       <li><a class="active" href="/" aria-current="page">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/releases">Releases</a></li>
-      <li><a href="/gallery">Featured Gallery</a></li>
+      <li><a href="/gallery">Gallery</a></li>
     </ul>
   </nav>
 
@@ -33,12 +40,12 @@
           <h2>Official<span> Digital Home</span> of</h2>
           <h1>Cherish <span>Banhotra</span><span class="hero-verified"><img src="/assets/icons/verified.png" alt="Verified"></span></h1>
           <div class="hero-image hero-image-mobile">
-            <img src="/assets/CB8.png" alt="Portrait of Cherish">
+            <img src="/assets/CB1.png" alt="Portrait of Cherish">
           </div>
           <h2>Singer<span> & </span>Songwriter</h2>
           <p>Dedicated to supporting and celebrating Cherish Banhotra, her music, creativity, and inspiring artistic journey.</p>
           <div class="buttons hero-links">
-            <span class="hero-links-label">Streaming / Social</span>
+            <span class="hero-links-label">Find her on your favorite platforms:</span>
             <div class="hero-social-icons">
               <a class="social-action" href="https://open.spotify.com/artist/7ryOj0x9PQ23Cnm13lKh6o" target="_blank" rel="noopener" aria-label="Spotify">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Spotify_2.png" alt="Spotify">
@@ -65,7 +72,7 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="/assets/CB7.png" alt="Portrait of Cherish">
+          <img src="/assets/CB1.png" alt="Portrait of Cherish">
         </div>
       </div>
     </section>
@@ -148,9 +155,9 @@
     </section>
 
     <section id="fan-hub" class="content-section home-paths-section">
-      <div class="section-title">
-        <h2>Explore the Fan Hub</h2>
-        <p>Navigate through different sections dedicated to Cherish.</p>
+      <div class="hero-text">
+          <h1 id="identity-heading">Explore the<span> Fan Hub:</span></h1>
+
       </div>
       <div class="home-paths">
         <a class="path-card" href="/about">
@@ -163,13 +170,28 @@
         </a>
         <a class="path-card" href="/gallery">
           <img src="/assets/CB1.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
-          <h3>Featured Gallery</h3>
+          <h3>Gallery</h3>
         </a>
       </div>
     </section>
   </main>
 
-  <footer>&copy; 2026 Cherish Banhotra. <br>All Rights Reserved</footer>
+  <footer>
+    <form id="sib-form" class="footer-subscription" method="post" action="https://e0f66a9c.sibforms.com/v2/serve/MUIFAJBYAXpZ3_15LrjSkccSn438xO4-9TL0u9ric9q_1hd-4iVOBGrF3J5Hdr1-pVpfeqJXPih94H-aevmsamgaxBl_aNbW0TYhdsCzc96QMj-OvEuURZgN_sdhhSriD1fsnzmnkXPimLy6ayPRy9EIfyM_FJ8ppLM0FuEeF99LihAzED0Fit0gKucobyEz10i9MHgK98orsZHxtw==" data-type="subscription">
+      <p class="footer-subscription-title">for more updates</p>
+      <div class="footer-subscription-fields">
+        <label class="visually-hidden" for="footer-email">Email address</label>
+        <input id="footer-email" type="email" name="EMAIL" autocomplete="email" placeholder="Enter your email" required>
+        <button type="submit">Sign up</button>
+      </div>
+      <input class="footer-subscription-honeypot" type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <p id="success-message" class="footer-subscription-message" role="status">Thanks for subscribing!</p>
+      <p id="error-message" class="footer-subscription-message footer-subscription-error" role="alert">Your subscription could not be saved. Please try again.</p>
+    </form>
+    <p class="footer-copyright">&copy; 2026 Cherish Banhotra. <br>All Rights Reserved</p>
+  </footer>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
   <script src="/site-effects.js"></script>
 </body>
 </html>

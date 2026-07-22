@@ -10,6 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqa2oxhmor");
+</script>
 <body>
   <nav class="navbar" aria-label="Primary navigation">
     <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
@@ -21,7 +28,7 @@
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a class="active" href="/releases" aria-current="page">Releases</a></li>
-      <li><a href="/gallery">Featured Gallery</a></li>
+      <li><a href="/gallery">Gallery</a></li>
     </ul>
   </nav>
 
@@ -42,7 +49,7 @@
           </div>
         </article>
         <article class="release-card">
-          <img src="/assets/song2.jfif" alt="Featured gallery release portrait">
+          <img src="/assets/song2.jfif" alt="Gallery release portrait">
           <div>
             <span>Featured</span>
             <h2>Roothe Roothe</h2>
@@ -59,7 +66,22 @@
     </section>
   </main>
 
-  <footer>&copy; 2026 Cherish Banhotra</footer>
+  <footer>
+    <form id="sib-form" class="footer-subscription" method="post" action="https://e0f66a9c.sibforms.com/v2/serve/MUIFAJBYAXpZ3_15LrjSkccSn438xO4-9TL0u9ric9q_1hd-4iVOBGrF3J5Hdr1-pVpfeqJXPih94H-aevmsamgaxBl_aNbW0TYhdsCzc96QMj-OvEuURZgN_sdhhSriD1fsnzmnkXPimLy6ayPRy9EIfyM_FJ8ppLM0FuEeF99LihAzED0Fit0gKucobyEz10i9MHgK98orsZHxtw==" data-type="subscription">
+      <p class="footer-subscription-title">for more updates</p>
+      <div class="footer-subscription-fields">
+        <label class="visually-hidden" for="footer-email">Email address</label>
+        <input id="footer-email" type="email" name="EMAIL" autocomplete="email" placeholder="Enter your email" required>
+        <button type="submit">Sign up</button>
+      </div>
+      <input class="footer-subscription-honeypot" type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <p id="success-message" class="footer-subscription-message" role="status">Thanks for subscribing!</p>
+      <p id="error-message" class="footer-subscription-message footer-subscription-error" role="alert">Your subscription could not be saved. Please try again.</p>
+    </form>
+    <p class="footer-copyright">&copy; 2026 Cherish Banhotra</p>
+  </footer>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
   <script src="/site-effects.js"></script>
 </body>
 </html>

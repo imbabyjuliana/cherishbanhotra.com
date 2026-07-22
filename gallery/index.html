@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cherish Banhotra | Featured Gallery</title>
+  <title>Cherish Banhotra | Gallery</title>
   <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xqa2oxhmor");
+</script>
 <body>
   <nav class="navbar" aria-label="Primary navigation">
     <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
@@ -21,7 +28,7 @@
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/releases">Releases</a></li>
-      <li><a class="active" href="/gallery" aria-current="page">Featured Gallery</a></li>
+      <li><a class="active" href="/gallery" aria-current="page">Gallery</a></li>
     </ul>
   </nav>
 
@@ -55,8 +62,8 @@
           </button>
         </article>
         <article class="gallery-card">
-          <button class="gallery-preview" type="button" data-full="/assets/CB6.png" data-title="Cherish Banhotra">
-            <img src="/assets/CB6.png" alt="Cherish Banhotra" loading="lazy" decoding="async">
+          <button class="gallery-preview" type="button" data-full="/assets/CB8.png" data-title="Cherish Banhotra">
+            <img src="/assets/CB8.png" alt="Cherish Banhotra" loading="lazy" decoding="async">
           </button>
         </article>
       </div>
@@ -73,7 +80,22 @@
     </div>
   </div>
 
-  <footer>&copy; 2026 Cherish Banhotra</footer>
+  <footer>
+    <form id="sib-form" class="footer-subscription" method="post" action="https://e0f66a9c.sibforms.com/v2/serve/MUIFAJBYAXpZ3_15LrjSkccSn438xO4-9TL0u9ric9q_1hd-4iVOBGrF3J5Hdr1-pVpfeqJXPih94H-aevmsamgaxBl_aNbW0TYhdsCzc96QMj-OvEuURZgN_sdhhSriD1fsnzmnkXPimLy6ayPRy9EIfyM_FJ8ppLM0FuEeF99LihAzED0Fit0gKucobyEz10i9MHgK98orsZHxtw==" data-type="subscription">
+      <p class="footer-subscription-title">for more updates</p>
+      <div class="footer-subscription-fields">
+        <label class="visually-hidden" for="footer-email">Email address</label>
+        <input id="footer-email" type="email" name="EMAIL" autocomplete="email" placeholder="Enter your email" required>
+        <button type="submit">Sign up</button>
+      </div>
+      <input class="footer-subscription-honeypot" type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="locale" value="en">
+      <p id="success-message" class="footer-subscription-message" role="status">Thanks for subscribing!</p>
+      <p id="error-message" class="footer-subscription-message footer-subscription-error" role="alert">Your subscription could not be saved. Please try again.</p>
+    </form>
+    <p class="footer-copyright">&copy; 2026 Cherish Banhotra</p>
+  </footer>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
   <script src="/site-effects.js"></script>
   <script src="/gallery-lightbox.js"></script>
 </body>
